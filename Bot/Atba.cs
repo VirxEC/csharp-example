@@ -3,7 +3,6 @@ using MyBot.Math;
 using RLBot.Flat;
 using RLBot.Manager;
 using RLBot.Util;
-using Vector3 = System.Numerics.Vector3;
 using Color = System.Drawing.Color;
 
 Atba bot = new();

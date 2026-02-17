@@ -5,4 +5,4 @@ bot_configs = ["atba.bot.toml"]
 [config.builder_config]
 builder_type = "csharp"
 # Optional, use if there are multiple sub-projects that can be built
-base_dir = "Bot"
+# base_dir = "Bot"
