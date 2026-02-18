@@ -29,7 +29,7 @@ public struct Vec2
         return new Vec2(a.X - b.X, a.Y - b.Y);
     }
 
-    public float SteerTo(Vec2 ideal)
+    public readonly float SteerTo(Vec2 ideal)
     {
         // The in-game axes are left-handed, so use -x
         float currentInRadians = MathF.Atan2(Y, -X);

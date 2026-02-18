@@ -1,3 +1,6 @@
+# You don't need to edit this file manually!
+# The GUI has a built-in loadout editor.
+
 [blue_loadout]
 # Primary Color selection
 team_color_id = 29
