@@ -20,7 +20,7 @@ To run the bot, follow these steps:
 
 1. In RLBot's GUI, click "Add" in the top right.
 2. Click "Add Folder" in the menu that pops up and select this folder.
-    - You can also click "Add File" and select "atba.bot.toml" but if you rename the file then you will have to re-add your bot.
+    - You can also click "Add File" and select "example.bot.toml" but if you rename the file then you will have to re-add your bot.
     - [See the RLBot wiki](https://wiki.rlbot.org/v5/botmaking/config-files/#bot-script-config-files) for more information on `bot.toml` files.
 3. Your bot should now appear in the GUI; drag it onto either the blue or orange team.
 4. Click "Start Match" to start a match with your bot.
@@ -33,13 +33,13 @@ It tells our automated build system how to build your bot from its source code.
 
 ```toml
 [[config]]
-project_name = "Atba"
-bot_configs = ["atba.bot.toml"]
+project_name = "CSharpExample"
+bot_configs = ["example.bot.toml"]
 
 [config.builder_config]
 builder_type = "csharp"
 # Optional, use if there are multiple sub-projects that can be built
-# base_dir = "Bot"
+# base_dir = "ExampleBot"
 ```
 
 - `project_name` is the name of your bot project. It can be anything you like, but try to make it unique.

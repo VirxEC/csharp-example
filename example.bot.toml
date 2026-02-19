@@ -1,8 +1,8 @@
 [settings]
 # A unique string identifying this type of bot, typically on the form "<developer>/<botname>"
-agent_id = "test/csharp_atba"
+agent_id = "rlbot_community/csharp_example"
 # The name that will be displayed in game
-name = "v5 C# ATBA"
+name = "C# Example Bot"
 # Path to loadout config from runner
 loadout_file = "loadout.toml"
 # (OPTIONAL) - what you want the working directory set to
@@ -17,7 +17,7 @@ run_command_linux = "dotnet run"
 
 [details]
 description = "Made possible by RLBot"
-fun_fact = "This is a test bot"
+fun_fact = "This is an example bot"
 source_link = "https://github.com/RLBot/RLBot"
 developer = "BotMaker"
 language = "C#"
